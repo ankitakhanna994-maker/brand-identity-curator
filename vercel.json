@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm install",
+  "outputDirectory": "api",
+  "functions": {
+    "api/curator.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
